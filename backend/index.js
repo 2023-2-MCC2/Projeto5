@@ -4,10 +4,10 @@ const mysql = require("mysql");
 const cors = require("cors")
 
 const db = mysql.createPool({
-    host:"127.0.0.1",
+    host:"34.95.191.208",
     user: "root",
     password: "Gui132lherme!",
-    database: "tracksuit",
+    database: "tracksuit_project",
 })
 
 app.use(cors());
